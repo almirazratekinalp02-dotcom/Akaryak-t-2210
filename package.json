@@ -1,0 +1,30 @@
+{
+  "name": "caveman-installer",
+  "version": "0.1.0",
+  "description": "Detect AI coding agents and install caveman for each one",
+  "license": "MIT",
+  "author": "Julius Brussee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuliusBrussee/caveman"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "caveman": "./bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "agents/",
+    "skills/",
+    "plugins/",
+    "commands/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/installer/*.test.mjs"
+  }
+}
